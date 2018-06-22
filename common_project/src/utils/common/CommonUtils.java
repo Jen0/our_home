@@ -14,9 +14,9 @@ public class CommonUtils {
 	}
 
 	/**
-	 * ×Ö·û´®²¹ÁãÎ»
+	 * å­—ç¬¦ä¸²è¡¥é›¶ä½
 	 * @param str
-	 * @param digit ×ÜÎ»Êı
+	 * @param digit æ€»ä½æ•°
 	 * @return
 	 */
 	public static String prefixAppendZero(String str, int digit) {
@@ -30,7 +30,7 @@ public class CommonUtils {
 	}
 
 	/**
-	 * ÊÇ·ñÎª0»òÕß¿Õ
+	 * æ˜¯å¦ä¸º0æˆ–è€…ç©º
 	 * 
 	 * @param num
 	 * @return
@@ -43,7 +43,7 @@ public class CommonUtils {
 	}
 
 	/**
-	 * ÊÇ·ñÎª0»òÕß¿Õ
+	 * æ˜¯å¦ä¸º0æˆ–è€…ç©º
 	 * 
 	 * @param num
 	 * @return
@@ -52,31 +52,9 @@ public class CommonUtils {
 		return !isZero(num);
 	}
 
+	
 	/**
-	 * »ñÈ¡µ±Ç°Ê±¼ä´Á
-	 * 
-	 * @return
-	 */
-	public static Timestamp currTimestamp() {
-		return new Timestamp(new Date().getTime());
-	}
-
-	/**
-	 * ¸ø¶¨ÈÕÆÚ£¬¶àÉÙÌìºóµÄÈÕÆÚ
-	 * 
-	 * @param time
-	 * @param days
-	 * @return
-	 */
-	public static Date addTime(Date time, int days) {
-		Calendar c = Calendar.getInstance();
-		c.setTime(time);
-		c.add(Calendar.DAY_OF_MONTH, days);
-		return c.getTime();
-	}
-
-	/**
-	 * ÅĞ¶Ï¼¯ºÏ·Ç¿Õ
+	 * åˆ¤æ–­é›†åˆéç©º
 	 * 
 	 * @param c
 	 * @return
@@ -89,7 +67,7 @@ public class CommonUtils {
 	}
 
 	/**
-	 * ÅĞ¶Ï¼¯ºÏ·Ç¿Õ
+	 * åˆ¤æ–­é›†åˆéç©º
 	 * 
 	 * @param c
 	 * @return

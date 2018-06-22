@@ -16,6 +16,11 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
+/** 1、需要引入jia包：commons-fileupload-1.3.3.jar，servlet-api.jar<br>
+ *  2、图片保存路径和访问路径设置需要连同配置文件 config.properties和FileUtil工具栏
+ * @author Jeno
+ *
+ */
 public class FileUploadUtil {
 
 	public static Map<String, Object> saveCapture(HttpServletRequest request, HttpServletResponse response) {

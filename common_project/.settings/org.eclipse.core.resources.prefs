@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/config.properties=UTF-8
+encoding//src/utils/file/ExcelUtil.java=UTF-8
 encoding//src/utils/file/FileUtil.java=GBK
 encoding/<project>=UTF-8
